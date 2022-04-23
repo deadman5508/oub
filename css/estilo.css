@@ -189,12 +189,40 @@ ul.noticias li p a{
 	width: auto;
 }
 
+
+
+
+
+
+
+/*alterações abaixo*/
+.menu-mobile{
+	display: none;
+	} 
+
+
+/*mobile*/
 @media screen and (max-width: 900px){
 
 .coluna{
 	padding: auto;
 	float: none;
 	height: auto;
+}
+.menu{
+	display: none;
+}
+.menu-mobile{
+	display: inline-block;
+	text-align: right;
+}
+
+}
+
+@media screen and (max-width: 500px){
+
+	header div.coluna.col2{
+	background-image: none;
 }
 
 }
